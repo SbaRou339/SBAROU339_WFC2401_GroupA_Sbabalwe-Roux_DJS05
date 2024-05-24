@@ -18,11 +18,11 @@ This project demonstrates a simple counter application using a Redux-inspired st
 
 3. JavaScript (store.js):
 
-- Initial State: Defines the initial state of the counter with count set to 0.
-- Reducer: A function counterReducer that updates the state based on the action type.
-- Store Creation: A function createStore that manages the state, dispatches actions, and notifies listeners.
-- Rendering Logic: A render function to update the counter display, subscribed to store updates to reflect changes in the UI.
-- Event Listeners: Added to the buttons to dispatch actions when clicked.
+  - Initial State: Defines the initial state of the counter with count set to 0.
+  - Reducer: A function counterReducer that updates the state based on the action type.
+  - Store Creation: A function createStore that manages the state, dispatches actions, and notifies listeners.
+  - Rendering Logic: A render function to update the counter display, subscribed to store updates to reflect changes in the UI.
+  - Event Listeners: Added to the buttons to dispatch actions when clicked.
 
 ## Challenges and Solutions
 
