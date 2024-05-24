@@ -6,7 +6,7 @@ This project demonstrates a simple counter application using a Redux-inspired st
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/SbaRou339/SBAROU339_WFC2401_GroupA_Sbabalwe-Roux_DJS05.git>
    cd redux-counter
 2. Navigate the project and then run it using Open Live Server
 
@@ -34,7 +34,7 @@ One of the primary challenges was implementing a Redux-like state management sys
 #### Solution
 I implemented a createStore function that initializes the state, allows state updates through dispatching actions, and maintains a list of listeners to notify on state changes.
 
-### 1. Synchronizing UI with State
+### 2. Synchronizing UI with State
 
 #### Challenge
 Ensuring the UI remains in sync with the state changes was crucial. It required setting up a subscription mechanism to update the counter display whenever the state changes.
