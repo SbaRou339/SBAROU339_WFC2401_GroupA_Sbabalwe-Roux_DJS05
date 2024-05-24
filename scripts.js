@@ -53,8 +53,28 @@ store.subscribe(() => {
   console.log('State changed:', store.getState());
 });
 
-// Test the functionality
-store.dispatch({ type: 'ADD' });
-store.dispatch({ type: 'SUBTRACT' });
-store.dispatch({ type: 'RESET' });
-  
+// Function to render the counter value
+function render() {
+  document.getElementById('counter').textContent = store.getState().count;
+}
+
+// Subscribe render function to store updates
+store.subscribe(render);
+
+// Initial render
+render();
+
+// Add event listeners to buttons
+document.getElementById('add').addEventListener('click', () => {
+  store.dispatch({ type: 'ADD' });
+});
+
+document.getElementById('subtract').addEventListener('click', () => {
+  store.dispatch({ type: 'SUBTRACT' });
+});
+
+document.getElementById('reset').addEventListener('click', () => {
+  store.dispatch({ type: 'RESET' });
+});
+
+
