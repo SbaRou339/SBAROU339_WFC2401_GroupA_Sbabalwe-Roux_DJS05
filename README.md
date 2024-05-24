@@ -8,7 +8,7 @@ This project demonstrates a simple counter application using a Redux-inspired st
    ```bash
    git clone <https://github.com/SbaRou339/SBAROU339_WFC2401_GroupA_Sbabalwe-Roux_DJS05.git>
    cd redux-counter
-2. Navigate the project and then run it using Open Live Server
+2. Navigate the project and then run it using Open Live Server on VS Code
 
 ## Overview of the Approach
 
