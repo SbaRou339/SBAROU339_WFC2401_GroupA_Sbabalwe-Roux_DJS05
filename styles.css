@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+.counter {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.buttons button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#subtract {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#reset {
+    background-color: #ffc107;
+    color: #fff;
+}
